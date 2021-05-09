@@ -1,0 +1,183 @@
+body{
+	background: url(images/bg-mobile.svg);
+	background-repeat: no-repeat;
+	background-color: hsl(257, 40%, 49%);
+	padding:0px 30px;
+}
+
+figure{
+	padding: 0;
+	margin: 0;
+	border:0;
+	width: 100%;
+}
+#logo{
+	padding: 0;
+	margin: 40px 0px;
+	border:0;
+}
+#logo-img{
+	width: 45%;
+	margin-left: 0px;
+}
+#huddlegroup-image{
+	width: 100%;
+	margin: 30px 0px 50px 0px;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 25px;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	margin-bottom: 50px;
+}
+a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: hsl(228, 45%, 44%);
+}
+h1,p,a{
+	text-align: center;
+}
+#register{
+	box-shadow: 0px 2px 7px black;
+	color: hsl(257, 40%, 49%);
+	background: white;
+	padding:10px 100px;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+#socialmedia{
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+}
+.icons{
+	display: inline-block;
+	border:solid white 2px;
+	border-radius: 50px
+}
+.icons:nth-child(1){
+	padding:5px 8px;
+}
+.icons:nth-child(2){
+	padding:5px;
+	margin: 0px 15px;
+}
+.icons:nth-child(3){
+	padding:5px 7px;
+}
+.attribution{
+	font-size: 11px
+}
+
+
+@media screen and (min-width: 950px){
+	body{
+		background: url(images/bg-desktop.svg);
+		background-repeat: no-repeat;
+		background-color: hsl(257, 40%, 49%);
+		display: inline-block;
+		position: relative;
+	}
+	h1{
+		font-size: 32px
+	}
+	p{
+		margin-bottom: 30px;
+	}
+	p,a{
+		font-size: 14px;
+	}
+	h1,p,a{
+		text-align: left;
+
+	}
+	#logo-img{
+		width: 20%;
+	}
+	#huddlegroup{
+		width: 50%;
+		display: inline-block;
+	}
+	#content{
+		position: relative;
+		width: 42%;
+		float: right;
+		display: inline-block;
+		padding: 20px 30px 0px 30px;
+	}
+	#register{
+		padding:10px 50px;
+		margin-left: 0;
+	}
+	#register:hover{
+		color: white;
+		background:hsl(300, 69%, 71%);
+	}
+	#socialmedia{
+		float: right;
+	}
+	i{
+		font-size:30px;
+	}
+	.icons:nth-child(1){
+		padding:10px 15px;
+		border-radius: 50px;
+	}
+	.icons:nth-child(2){
+		padding:10px 10px;
+		border-radius: 50px;
+		margin: 0px 20px;
+	}
+	.icons:nth-child(3){
+		padding:10px 12px;
+		border-radius: 50px;
+	}
+	.icons:hover{
+		color:hsl(300, 69%, 71%);
+		border-color: hsl(300, 69%, 71%);
+	}
+	footer{
+		margin-top: 25%;
+		text-align: center;
+	}
+
+	
+}
+@media screen and (min-width: 1440px){
+	body{
+		padding-left: 40px;
+	}
+	#logo{
+		width: 65%;
+	}
+	h1{
+		font-size: 48px;
+	}
+	p,a{
+		font-size: 20px;
+	}
+	#register{
+		padding:10px 60px;
+	}
+	#socialmedia{
+		margin-top: 10px;
+	}
+	footer{
+		margin-top: 50px;
+	}
+	.attribution{
+		text-align: center;
+		font-size: 16px
+
+	}
+	.attribution>a{
+		font-size: 16px;
+		color:#3D4080;
+	}
+
+}
